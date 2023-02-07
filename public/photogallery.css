@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Geometric";
+    src: url("/fonts/urw-geometric-cufonfonts/URWGeometricBold.otf");
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.65;  
+    color: #E7E7BD;
+    font-family: 'Geometric';
+
+}
+
+header {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'Geometric';
+
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+a {
+    text-decoration: none;
+    color: #E7E7BD;
+
+}
+
+.list {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+    gap: 40px;
+    margin-right: 40px;
+    list-style: none;
+    
+}
+
+.main-container{
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 44px;
+    width: 550px;
+    height: 100px;
+    text-align: center;
+}
+
+
+/*
+.sub-title {
+    margin-left: auto;
+    margin-right: auto;
+      width: 100%;
+      font-weight: 300;
+      font-size: 35px;
+      text-align: center;
+    
+    }
+
+    */
+.container-images {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 600px;
+    padding: 0 0 0 0;
+    margin: 20px 0;
+    text-align:center;
+}
+.image1 {
+    height:auto ;
+    width:350px;
+    align-content: center;
+
+}
+
+.image2 {
+    height:auto ;
+    width:350px;
+}
+.image3 {
+    height:auto ;
+    width:350px;
+}
+.image4 {
+    height:auto ;
+    width:350px;
+}
+.image5 {
+    height:auto ;
+    width:350px;
+}
+.image6 {
+    height:auto ;
+    width:350px;
+}

@@ -1,0 +1,78 @@
+/* beige yellow color: #E7E7BD; */ 
+
+@font-face {
+    font-family: "Geometric";
+    src: url("/fonts/urw-geometric-cufonfonts/URWGeometricBold.otf");
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    background-image: url('images/Tidal_Wave_Gif_1.gif') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.65;  
+    color: #E7E7BD;
+    font-family: 'Geometric';
+
+}
+
+header {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'Geometric';
+
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+a {
+    text-decoration: none;
+    color: #E7E7BD;
+
+}
+
+.list {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+    gap: 40px;
+    margin-right: 40px;
+    list-style: none;
+    
+}
+
+.main-container{
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 44px;
+    width: 550px;
+    height: 100px;
+    text-align: center;
+}
+
+.tommischlogo {
+    height: 100%;
+    width: auto;
+    text-align: center;
+
+
+}
+
+.sub-title {
+    margin-left: auto;
+    margin-right: auto;
+      width: 100%;
+      font-weight: 300;
+      font-size: 35px;
+      text-align: center;
+    
+    }
